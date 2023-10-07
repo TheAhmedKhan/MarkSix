@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    margin: 0;
+    padding: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 1.5rem;
+    font-weight: 100;
+    
+}
+.inout{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+textarea{
+    font-size: 2rem;
+    height: 70%;
+    border: 2px solid black;
+    width: 30%;
+    margin: 5% 34%;
+}
+@media (max-width:600px){
+    textarea{
+        font-size: 2rem;
+        width: 80%;
+        border: 2px solid black;
+        margin: 4% 10%
+       
+        
+    }
+
+}
+
+button{
+    margin-left: 40%;
+    margin-right: 40%;
+    height: 2.5rem;
+    font-size: 2rem;
+    border: none;
+    background-color: rgb(255, 230, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+@media (max-width:600px){
+    button{
+        margin-left: 20%;
+    margin-right: 20%;
+
+    }
+}
+#translate-output{
+    font-size: 2rem;
+    height: 8rem;
+    border: 2px solid black;
+    width: 30%;
+    margin: 5% 34%;
+
+}
+@media (max-width:600px){
+    #translate-output{
+        font-size: 2rem;
+        width: 80%;
+        border: 2px solid black;
+        margin: 4% 10%
+    }
+
+}
+footer{
+
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    margin: 0;
+    padding: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 1.5rem;
+    
+
+}
+h2{
+    font-weight: 100;
+
+}
